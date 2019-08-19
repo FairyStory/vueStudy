@@ -24,7 +24,7 @@ export default new Router({
      component: Home,
      hidden: true,
      children:[
-       { path: '/tab1', component: tab1, name: 'tab1', hidden: false,},
+       { path: '/tab1', component: tab1, name: 'highcharts图表', hidden: false,},
        {path: '/tab2', component: tab2, name: 'tab2', hidden: false,},
        { path: '/tab3', component: tab3, name: 'tab3', hidden: false, }
       ]
