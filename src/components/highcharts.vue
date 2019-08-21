@@ -32,13 +32,13 @@ export default {
   methods: {
     getData(){
       let that = this;
-      requestList("/user",{}).then(data => {
+      requestList("/highcharts/user",{}).then(data => {
         that.options =data
       });
     },
     getData_02(){
        let that = this;
-      requestList("/line",{}).then(data => {
+      requestList("/highcharts/line",{}).then(data => {
         that.options_02 =data
       });
      

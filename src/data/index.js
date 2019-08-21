@@ -1,7 +1,7 @@
 import Mock from "mockjs";
 import data_hightcharts from "./data_hightcharts"
-Mock.mock("/data/user", "post", data_hightcharts.user)
-Mock.mock("/data/line", "post", data_hightcharts.line)
+Mock.mock("/data/highcharts/user", "post", data_hightcharts.user)
+Mock.mock("/data/highcharts/line", "post", data_hightcharts.line)
 
 
 export default Mock
