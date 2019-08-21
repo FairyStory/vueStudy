@@ -44,5 +44,15 @@ export default {
             ]
         };
         return data ;
+    },
+    line:{
+        type:"line",
+        xAxis:{},
+        series:[
+            {
+                data:[]
+            }
+        ]
+
     }
 }

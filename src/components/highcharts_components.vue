@@ -28,7 +28,8 @@ export default {
       this.$el.style.height = (this.styles.height || 400) + 'px';
       this.chart = new Highcharts.Chart(this.$el, this.options);
     }
-  },watch:{
+  },
+  watch:{
     options:function() {
       //检测输入值的变化重新渲染图表
        this.chart = new Highcharts.Chart(this.$el, this.options);
